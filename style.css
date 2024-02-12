@@ -1,0 +1,230 @@
+body{
+    background-color:white;
+    color: rgb(37, 36, 36);
+    font-family: 'Manrope', sans-serif;
+    margin: 0px;
+    }
+#about,  #education, #contact {
+    margin: 4rem 0;
+    padding: 4rem 0;
+    }
+/* navbar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: black;
+    margin: 10;
+    padding: 10;
+    position: fixed;
+    width: 100%;
+    }
+nav div {
+    width: 40%;
+    text-align: end;
+    }
+    nav ul {
+    display: flex;
+    text-align: end;
+    }
+    nav ul li {
+    list-style: none;
+    margin: 0 20px;
+    }
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    }
+nav ul li a:hover{
+    text-decoration: none;
+    color: yellow;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    }
+    
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 300px 50px;
+    color: white;
+    height: 515px;
+        }
+.section1 div{
+    width: 40%;
+    margin-top: 30px;
+        }
+.s1left {
+    font-size: 2rem;
+    justify-content: center;
+    height: 450px;
+    width: 450px;
+    padding: 30px 50px;
+        }
+#element {
+    font-size: 2rem;
+    color: rgb(220, 220, 238);
+        }
+.s1right img {
+    background-color: black;
+    width: 950px;
+    height: 600px;
+        }
+.blue{
+    color: black;
+    font-size: 2.5rem;
+        }
+
+#about {
+    height: 560px;
+    margin: 50px 100px;
+    padding: 100px, 50px;
+            }
+.ab-header {
+    font-size: xx-large;
+            }
+.img{
+    height: 400px;
+    width: 350px;
+    border: 5px solid white;
+    box-shadow: 0 0 5px 0 rgb(108, 106, 106);
+    margin-top: 50px;
+            }
+ .section2 {
+    display: flex;
+    justify-content: space-around;
+            }
+.s2left {
+    width: 40%;
+            }
+.s2right {
+    font-size: 1rem;
+    justify-content: flex-start;
+    text-align: justify;
+    width: 40%;
+            }
+.s2right ul li {
+    list-style: square;
+    padding: 4px 4px;
+            }
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(37, 36, 36);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+            }
+.button:hover {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(37, 36, 36);
+    color: rgb(102, 102, 250);
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+            }
+
+#education {
+    height: 560px;
+    margin: 50px 100px;
+    padding: 100px, 50px;
+    justify-content: center;
+}
+.ed-header {
+    font-size: xx-large;
+}
+.section4 {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 50px;
+    width: 1200px;
+    height: 50px;
+    margin: 15px 50px;
+    justify-content: space-evenly;
+}
+
+.section4 li{
+    list-style: none;
+    padding: 10px 80px;
+
+    background-size: 65px;
+    font-size: x-large;
+}
+.edu-container {
+    box-shadow: 1px 5px black;
+    border-radius: 5px;
+    background-color:white ;
+    padding: 10px;
+    font-size: medium;
+
+}
+
+/* Contact Me */
+#contact {
+    height: 560px;
+    margin: 50px 100px;
+    padding: 70px 50px;
+    justify-content: center;
+}
+.cm-header {
+    font-size: xx-large;
+}
+.section5 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 400px;
+    width: 450px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 400px;
+    width: 450px;
+}
+.c-form input, textarea {
+   width: 600px;
+   padding: 20px 10px;
+   margin: 8px 0px;
+   border: 1px;
+   border-radius: 5px;
+   background-color: whitesmoke;
+   color: rgb(37, 36, 36);
+}
+
+
+/* footer */
+.footer {
+   display: flex;
+   justify-content: space-evenly;
+   margin: 0;
+   padding: 0 550px;
+   height: 50px;
+   background-color: rgb(223, 223, 250);
+}
+.footer div {
+   color: rgb(37, 36, 36);
+   font-weight: bolder;
+   font-size: large;
+   margin: 15px 10px;
+}
+.footer img {
+   height: 40px;
+   width: 40px;
+   padding: 2.5px 10px;
+   align-items: center;
+}
+
+                    

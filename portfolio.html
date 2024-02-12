@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<!-- font link -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;600&display=swap" rel="stylesheet">
+<!-- css stylesheet link -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<nav>
+<div class="left"></div>
+<div class="right">
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+</nav>
+</header>
+<main>
+    <section class="section1" id="home">
+        <div class="s1left">
+            <span class="blue"><h3>Hi, <br>my name is<br> Ritu Patil</h3></span>
+            <div class="row5">
+                <a href="Ritu patil.pdf" class="button">Download CV</a>
+                </div>
+          <span id="element"></span>
+          </div>
+        <div class="s1right">
+        <img src="imgs.jpg" alt="">
+        </div>
+    </section>
+<section id="about">
+    <section class="section2">
+        <div class="s2left">
+            <img src="imgs1.jpg" class="img">
+        </div>
+            <div class="s2right">
+        <div class="ab-header">
+            <h1>About Me</h1>
+        </div>
+<div class="row5">
+    <ul>
+    <li><b>Name:</b> Ritu Patil</li>
+        <li><b>Age:</b> 23</li>
+           <li><b>Mobile No.:</b> +91 8668487434</li>
+           <li><b>Email:</b> ritupatil3098@gmail.com</li>
+           <li><b>Occupation:</b> Master's in Data Software Engineering </li>
+           </ul>
+           </div>
+           </section>
+    </section>
+
+<section id="education">
+    <h1 class="ed-header">Education</h1>
+      <hr>
+          <section class="section4">
+               <div class="edu-container">
+            <div class="edu-container">
+
+    <li><b>B.Tech(CSE)</b></li>
+        <div id="edu-info">  
+        Dr.Babasaheb Ambedkar University
+           <br>
+             2020-23
+           </div>
+           </div>
+
+    <li><b>Master's in Data Software Engineering</b></li>
+    <div id="edu-info">
+        TVedant Education
+            <br>
+            2023-Present
+            </div>
+            </div>
+            </section>
+            </section>
+
+          <!-- Contact Me -->
+<section id="contact">
+    <center><h1 class="cm-header"> Contact Me</h1></center>
+        <section class="section5">
+            <div>
+                <form class="c-form">
+                <table>
+        <tr>
+<td><input type="text" id="name" placeholder="Name" required></td>
+    </tr>
+    <tr>
+    <td><input type="email" id="email" placeholder="E-mail" required></td>
+</tr>
+    <tr>
+    <td><input type="text" id="no" placeholder="Mobile No." required></td>
+    </tr>
+        <tr>
+        <td><textarea rows="7" id="msg" placeholder=" Message Here" required ></textarea></td>
+            </tr>
+            </table>
+            </form>
+<center><input class="button" type="button" value="Contact Me" onclick="sendEmail()"></center>
+    </div>
+        </section>
+            </section>
+                </main>
+<footer class="footer">
+                
+<!-- send mail by clicking Contact Me -->
+<script>
+    function sendEmail() {
+        let Name = document.getElementById("name").value;
+        let Email = document.getElementById("email").value;
+        let Mobile_No = document.getElementById("phno").value;
+        let Message = document.getElementById("msg").value;
+        const getmail = (`mailto:ritupatil3098@@gmail.com?subject=Client Information&body=Name: ${Name}%0D%0AEmail:
+        ${Email}%0D%0AMobile_No: ${Mobile_No}%0D%0AMessage: ${Message}`);
+        window.location.href = getmail;
+        }
+        </script>
+        </body>
+        </html>
+        
+        
+
